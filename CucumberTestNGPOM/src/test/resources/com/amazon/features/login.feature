@@ -5,7 +5,7 @@ Feature: Login to Amazon Website
 @sanity
   Scenario: Successful login with valid credentials
     Given the Amazon homepage is open
-    When I enter my valid username "supriyabyadav.june22@gmail.com" and valid password "SuPriya@1523"
+    When I enter my valid username "supriyayadav.@gmail.com" and valid password "SuPriya@15"
     And I click on the "Sign In" button
     Then I should be logged in to my Amazon account
     And I should see my account name displayed
