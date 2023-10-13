@@ -1,9 +1,11 @@
 # SolutionMakers-BDD (Amazon Automation Testing Framework)
 
 ## Overview
-This is a sample project to demonstrate what is page object model framework and how it can used in selenium to automate an application.
-TestNG is used as test framework with BDD approach and Cucumber with Gherkin
+This is a sample project to demonstrate the page object model framework and how it can used in Selenium to automate an application.
+TestNG is used as a test framework with the BDD approach and Cucumber with Gherkin
+
 ## Project Structure
+
 amazon-automation
 ├── src
 │ ├── main
@@ -47,7 +49,7 @@ Before you start, ensure you have the following tools and software installed:
 
 1. Clone this repository to your local machine.
 
-2. Configure your test environment by updating the properties in the configuration files located in the `src/main/resources` directory.
+2. Configure your test environment by updating the properties in the configuration files in the `src/main/resources` directory.
    
 Run your tests by executing the following command: mvn test
 
@@ -58,8 +60,8 @@ Write your BDD feature files in the src/test/resources directory using Cucumber 
 
 Implement step definitions in the src/test/java directory.
 
-Customization
-Feel free to customize this framework to suit your specific testing requirements. You can add more features, integrations, or modify the existing codebase.
+## Customization
+Feel free to customize this framework to suit your specific testing requirements. You can add more features, and integrations, or modify the existing codebase.
 
-Contributor
+## Contributor
 - Supriya Yadav
